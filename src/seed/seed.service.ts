@@ -4,7 +4,7 @@ import { Model } from 'mongoose'
 
 import { Pokemon } from 'src/pokemon/entities/pokemon.entity'
 import { PokeResponse } from './interfaces/poke-response.interface'
-import { FetchAdapter } from 'src/common/adapters/Fetch.adapter'
+import { FetchAdapter } from 'src/common/adapters/fetch.adapter'
 
 @Injectable()
 export class SeedService {
