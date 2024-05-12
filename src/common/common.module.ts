@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common'
-import { FetchAdapter } from './adapters/Fetch.adapter'
+import { FetchAdapter } from './adapters/fetch.adapter'
 
 @Module({
   providers: [FetchAdapter],
